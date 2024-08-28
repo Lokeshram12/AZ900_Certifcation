@@ -1,0 +1,30 @@
+Regions
+A region is a geographical area on the planet that contains at least one, but potentially multiple datacenters that are nearby and networked together with a low-latency network.
+
+Availability Zones
+Availability zones are physically separate datacenters within an Azure region.
+
+Region pairs
+Most Azure regions are paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. 
+
+
+Azure resources and resource groups
+A resource is the basic building block of Azure. Anything you create, provision, deploy, etc. is a resource. Virtual Machines (VMs), virtual networks, databases, cognitive services, etc. are all considered resources within Azure.
+
+Azure subscriptions
+In Azure, subscriptions are a unit of management, billing, and scale. Similar to how resource groups are a way to logically organize resources, subscriptions allow you to logically organize your resource groups and facilitate billing.
+
+Resources inherit permissions from their resource group.
+
+A resource can only be in one group at a time.
+
+VM virtualize the hardware while containers virtualize the OS.
+
+Azure Kubernetes Service (AKS) is a container orchestration service.
+
+Containers are often used to create solutions by using a microservice architecture
+
+Public endpoints have a public IP address and can be accessed from anywhere in the world.
+Private endpoints exist within a virtual network and have a private IP address from within the address space of that virtual network.
+
+
