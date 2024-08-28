@@ -1,0 +1,93 @@
+-- Reliability is the ability of a system to recover from failures and continue to function. 
+It's also one of the pillars of the Microsoft Azure Well-Architected Framework.
+
+-- Both performance and cost predictability are heavily influenced by the Microsoft Azure Well-Architected Framework.
+
+--Performance predictability focuses on predicting the resources needed to deliver a positive experience for your customers. Autoscaling, 
+load balancing, and high availability are just some of the cloud concepts that support performance predictability. 
+
+-- Cost predictability is focused on predicting or forecasting the cost of the cloud spend.Total Cost of Ownership (TCO)
+
+--Describe the benefits of security and governance in the cloud.And because the cloud is intended as an over-the-internet delivery of IT resources,
+ cloud providers are typically well suited to handle things like distributed denial of service (DDoS) attacks, making your network more robust and secure.
+
+-- Management of the cloud
+Management of the cloud speaks to managing your cloud resources. In the cloud, you can:
+
+Automatically scale resource deployment based on need.
+Deploy resources based on a preconfigured template, removing the need for manual configuration.
+Monitor the health of resources and automatically replace failing resources.
+Receive automatic alerts based on configured metrics, so you’re aware of performance in real time.
+Management in the cloud
+Management in the cloud speaks to how you’re able to manage your cloud environment and resources. You can manage these:
+
+Through a web portal.
+Using a command line interface.
+Using APIs.
+Using PowerShell.
+
+
+-- Horizontal scaling is adding or subtracting the number of resources.
+-- Vertical scaling is focused on increasing or decreasing the capabilities of resources.
+
+ IaaS places the largest share of responsibility with you(Customer)
+
+ Lift-and-shift migration: You’re setting up cloud resources similar to your on-prem datacenter, and then simply moving the things running on-prem to running on the IaaS infrastructure.
+Testing and development: You have established configurations for development and test environments that you need to rapidly replicate. You can start up or shut down the different environments rapidly with an IaaS structure, while maintaining complete control.
+
+
+-- PaaS is well suited to provide a complete development environment without the headache of maintaining all the development infrastructure.
+
+Infrastructure as a Service (IaaS)
+1. Azure Virtual Machines
+
+Description: Provides on-demand scalable computing resources. You can run virtualized Windows or Linux servers in the cloud.
+Use Case: Hosting applications, testing and development, and running enterprise applications.
+2. Azure Storage
+
+Description: Offers scalable cloud storage solutions for data, files, and applications. Includes Blob Storage, File Storage, Queue Storage, and Table Storage.
+Use Case: Storing large amounts of unstructured data, backing up data, and managing application storage needs.
+Platform as a Service (PaaS)
+1. Azure App Service
+
+Description: A fully managed platform for building, deploying, and scaling web apps and APIs. Supports multiple languages and frameworks.
+Use Case: Hosting web applications, RESTful APIs, and mobile app backends.
+2. Azure SQL Database
+
+Description: A fully managed relational database service based on Microsoft SQL Server. Provides high availability, scaling, and automated backups.
+Use Case: Storing and managing relational data for applications, analytics, and reporting.
+3. Azure Functions
+
+Description: A serverless compute service that lets you run code without provisioning or managing servers. You pay only for the execution time.
+Use Case: Event-driven applications, real-time file processing, and automated workflows.
+4. Azure Cosmos DB
+
+Description: A globally distributed, multi-model database service that provides high availability and low latency. Supports various data models like document, key-value, graph, and column-family.
+Use Case: Building scalable, high-performance applications with global distribution needs.
+Software as a Service (SaaS)
+1. Microsoft 365 (formerly Office 365)
+
+Description: A suite of productivity and collaboration tools including Word, Excel, PowerPoint, Outlook, and Teams. Delivered as a cloud-based subscription service.
+Use Case: Document creation, email, collaboration, and team communication.
+2. Dynamics 365
+
+Description: A suite of cloud-based applications for business management including CRM (Customer Relationship Management) and ERP (Enterprise Resource Planning) solutions.
+Use Case: Sales, customer service, finance, supply chain management, and human resources.
+3. Microsoft Power BI
+
+Description: A cloud-based business analytics service that provides interactive visualizations and business intelligence capabilities.
+Use Case: Creating reports and dashboards, data visualization, and business insights.
+4. Microsoft Azure DevOps
+
+Description: A suite of development tools and services for continuous integration and continuous deployment (CI/CD), project management, and collaboration.
+Use Case: Software development lifecycle management, source code management, and build/deployment automation.
+
+
+Some common scenarios for SaaS are:
+
+Email and messaging.
+Business productivity applications.
+Finance and expense tracking.
+
+
+
